@@ -6,23 +6,6 @@ body{
     margin-top: 10%;  
     background: #FAFAFA;
 }
-div.login{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    left: 475px;
-    top: 240px;
-
-    background: #D9D9D9;
-    border: 5px solid #000000;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-    border-radius: 30px;
-
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding-left: 5%;
-}
 div.cabecario{
 
     position: absolute;
