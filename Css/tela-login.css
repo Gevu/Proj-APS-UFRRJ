@@ -14,6 +14,8 @@ div.cabecario{
     left: 0px;
     top: 0px;
     background: #5ABAD9;
+    justify-content: center;
+    align-items: center;
 }
 div.login{
     position: absolute;
@@ -43,7 +45,41 @@ div.login{
     font-size: larger;
     margin-left: 15%;
 }
-.menu{
+#menu{
+    position: right;
     text-align: right;
     margin-right: 10px;
+    margin-top: 15px;
 }
+div.busca{
+    margin: 0 auto;
+    position: relative;
+    float: center;
+    width: 20%;
+
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:280px;
+    height:32px;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0px;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    border-right: 0px;
+  }
