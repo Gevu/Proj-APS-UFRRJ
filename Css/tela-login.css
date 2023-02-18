@@ -6,23 +6,7 @@ body{
     margin-top: 10%;  
     background: #FAFAFA;
 }
-div.login{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    left: 475px;
-    top: 240px;
 
-    background: #D9D9D9;
-    border: 5px solid #000000;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-    border-radius: 30px;
-
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding-left: 5%;
-}
 div.cabecario{
 
     position: absolute;
@@ -40,8 +24,8 @@ div.cabecario{
     border: 3px solid #000000;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
-    width: 100px;
-    height: 50px;
+    width: 90px;
+    height: 30px;
     font-size: larger;
     margin-left: 15%;
 }
@@ -82,3 +66,33 @@ div.busca{
     font-weight:bold;
     background:#5F9EA0;
   }
+  div.login{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 475px;
+    top: 240px;
+
+    background: #D9D9D9;
+    border: 5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+
+    justify-content: center;
+}
+  input.form{
+    width: 200px;
+    height: 25px;
+    left: 255px;
+    top: 634px;
+
+    background: #FAF2F2;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
