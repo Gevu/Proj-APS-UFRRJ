@@ -1,9 +1,6 @@
 body{
     max-width: 100%;
-    margin: auto;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;  
+    margin: auto; 
     background: #FAFAFA;
 }
 div.cabecario{
@@ -17,51 +14,33 @@ div.cabecario{
     justify-content: center;
     align-items: center;
 }
-.butao{
-    position: relative;
-    background: #5ABAD9;
-    border: 3px solid #000000;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
-    width: 90px;
-    height: 30px;
-    font-size: larger;
-    margin-left: 15%;
-}
 #menu{
     position: right;
     text-align: right;
     margin-right: 10px;
     margin-top: 15px;
 }
-div.busca{
-    margin: 0 auto;
-    position: relative;
-    float: center;
-    width: 20%;
 
-    background-color:#E0EEEE;
-    border:solid 2px #5F9EA0;
-    border-radius:10px;
-    width:280px;
-    height:32px;
+div.filtro{
+    
+    background: #D9D9D9;
+    border: 5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+
+    margin-top: 13%;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    height: 350px;
+    width: 20%;
 }
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:6px;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:191px;
-  }
-  
-  #btnBusca{
-    border:none;
-    float:left;
-    height:32px;
-    border-radius:0 7px 7px 0px;
-    width:81px;
-    font-weight:bold;
-    background:#5F9EA0;
-  }
+#butao{
+    position: relative;
+    margin-top: 15px;
+}
+#busca{
+    position: relative;
+    margin-top: 15px;
+}
