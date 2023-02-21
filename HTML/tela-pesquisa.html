@@ -7,15 +7,71 @@
         <title>Pesquisa</title>
     </head>
     <body>
-        <div>
-            <div class="cabecario">
+        <div class="cabecario">
                 <div id="menu">
                     <a href="">Home |</a> <a href=""> Cadastro |</a><a href=""> Sobre</a>
                 </div>
-                <div class="busca">
-                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                    <button id="btnBusca">Buscar</button>
-                  </div>
-            </div>
+        </div>
+        <div class="filtro">
+            <form action="" method="">
+                <input type="search" id="busca" name="q">
+                <p style="font-size: x-large;;">Filtrar por</p>
+                <label for="tipo">Oque procura:<br></label>
+                    <select name="tipo">
+                            <option value=""> </option>
+                            <option value="autor">autor</option>
+                            <option value="Evento">Evento</option>
+                            <option value="Artigo">Artigo</option>
+                     </select><br>
+                <label for="estado">Estado do Evento:<br></label>
+                    <select name="estado">
+                            <option value=""> </option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                    </select><br>
+                <label for="Instituicao">Instituição:</label><br>
+                     <select name="Instituicao" id="">
+                            <option value=""> </option>
+                            <option value="ufrj">UFRJ</option>
+                            <option value="ufrj">UFRRJ</option>
+                            <option value="uerj">UERJ</option>  
+                    </select><br>
+                <label for="tag">Tema do evento:</label><br>
+                    <select name="tag" id="">
+                            <option value=""> </option>
+                            <option value="mat">matematica</option>
+                            <option value="fisica">fisica</option>
+                            <option value="computacao">computacao</option>
+                    </select><br>
+                <label for="data">Data do evento:</label><br>
+                <input type="number" min="1900" max="2099" step="1" value=" " ><br>
+                <button type="submit" id="butao">buscar</button>
+            </form>
+        </div>            
     </body>
 </html>
