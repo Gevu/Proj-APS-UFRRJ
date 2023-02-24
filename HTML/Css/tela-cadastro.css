@@ -1,0 +1,109 @@
+body{
+    max-width: 100%;
+    margin: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;  
+    background: #FAFAFA;
+}
+div.cabecario{
+
+    position: absolute;
+    width: 100%;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    background: #5ABAD9;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    position: right;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+div.busca{
+    margin: 0 auto;
+    position: relative;
+    float: center;
+    width: 20%;
+
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:280px;
+    height:32px;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:6px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0px;
+    width:81px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+div.Cadastro{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 475px;
+    top: 240px;
+
+    background: #D9D9D9;
+    border: 5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-top: 15px;
+    margin-left: 5%;
+
+}
+#tabela{
+    margin: auto;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+input.form{
+    width: 200px;
+    height: 32px;
+    left: 255px;
+    top: 634px;
+
+    background: #FAF2F2;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    align-items: center;
+}
+.butaoC{
+    position: relative;
+    background: #5ABAD9;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    width: 30%;
+    height: 50%;
+    font-size: larger;
+    margin-left: 32%;
+    padding: 5px;
+    align-items: center;
+    
+}
