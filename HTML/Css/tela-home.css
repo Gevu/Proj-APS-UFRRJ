@@ -54,3 +54,17 @@ div.busca{
     font-weight:bold;
     background:#5F9EA0;
   }
+div.conteudo{
+    align-content: center;
+    padding-top: 30%;
+    text-align: center;
+    align-items: center;
+}
+#titulo{
+    font-size: xx-large;
+    padding-bottom: 5px;
+    
+}
+#subtitulo{
+    font-size: large;
+}
