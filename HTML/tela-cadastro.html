@@ -12,7 +12,7 @@
         <div>
             <div class="cabecario">
                 <div id="menu">
-                    <a href="Tela-home.html">Home |</a> <a href="tela-cadastro.html"> Cadastro |</a><a href=""> Sobre</a>
+                    <a href="Tela-home.html">Home |</a> <a href="tela-login.html"> Login |</a><a href=""> Sobre</a>
                 </div>
                 <div class="busca">
                     <input type="text" id="txtBusca" placeholder="Buscar..."/>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="Cadastro">
-                <form action="">
+                <form >
                     <table id="tabela">
                         <br>
                         <tr>
@@ -31,7 +31,7 @@
                             </td>
                             <td>
                                 <label for="CPF">CPF:</label><br>
-                                <input class="form" type="text" id="CPF" name="CPF" ><br>
+                                <input class="form" type="text" id="CPF" name="CPF" maxlength="11" size="11"><br>
                             </td>
                         </tr>
                         <tr>
@@ -46,7 +46,7 @@
                         </tr>
                         <td>
                             <label for="IDlattes">ID Lattes:</label><br>
-                            <input class="form" type="text" id="IDlattes" name="IDlattes" ><br>
+                            <input class="form" type="nunber" id="IDlattes" name="IDlattes" ><br>
                         </td>
                         <td>
                             <label for="Usuario">Usuario:</label><br>
@@ -62,8 +62,13 @@
                                 <input class="form" type="password" id="senha" name="senha" ><br>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Cadastrar"class="butaoC" ><br><br>
+                            </td>
+                        </tr>
                     </table><br>
-                    <input type="submit" value="   Cadastrar"class="butaoC" ><br><br>
+                    
                 </form>
         </div>
     </body>
